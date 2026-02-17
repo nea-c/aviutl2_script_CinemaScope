@@ -1,4 +1,4 @@
---information:シネマスコープ r3 by 猫愛
+--information:シネマスコープ r4 by 猫愛
 --label:画面効果
 
 --track@centerX:中心X,-10000,10000,0,0.1
@@ -10,15 +10,16 @@
 --group:オフセット,false
 --select@mode_offset:オフセットタイプ=1,ピクセル=1,割合(スクリーン幅)=2,割合(スクリーン高さ)=3
 --track@offset:オフセット,-10000,10000,0,0.1
---group:追加オプション,false
---track@centerX_1:中心X(1),-10000,10000,0,0.1
---track@centerY_1:中心Y(1),-10000,10000,0,0.1
---track@angle_1:角度(1),-10000,10000,0,0.01
---track@width_1:幅(1),-10000,10000,0,0.1
---track@centerX_2:中心X(2),-10000,10000,0,0.1
---track@centerY_2:中心Y(2),-10000,10000,0,0.1
---track@angle_2:角度(2),-10000,10000,0,0.01
---track@width_2:幅(2),-10000,10000,0,0.1
+--group:追加オプション1,false
+--track@centerX_1:中心X,-10000,10000,0,0.1
+--track@centerY_1:中心Y,-10000,10000,0,0.1
+--track@angle_1:角度,-10000,10000,0,0.01
+--track@width_1:幅,-10000,10000,0,0.1
+--group:追加オプション2,false
+--track@centerX_2:中心X,-10000,10000,0,0.1
+--track@centerY_2:中心Y,-10000,10000,0,0.1
+--track@angle_2:角度,-10000,10000,0,0.01
+--track@width_2:幅,-10000,10000,0,0.1
 
 
 centerX = centerX + centerX_1 + centerX_2

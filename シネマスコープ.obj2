@@ -1,5 +1,5 @@
---information:シネマスコープ r2 by 猫愛
---label:"画面効果"
+--information:シネマスコープ r3 by 猫愛
+--label:画面効果
 
 --track@centerX:中心X,-10000,10000,0,0.1
 --track@centerY:中心Y,-10000,10000,0,0.1

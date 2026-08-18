@@ -7,25 +7,28 @@
 --select@mode_width:幅タイプ=1,ピクセル=1,割合(スクリーン幅)=2,割合(スクリーン高さ)=3
 --track@width:幅,0,50000,0,0.01
 --color@color:色,0x000000
---group:オフセット,false
+--group:オフセット設定,false
 --select@mode_offset:オフセットタイプ=1,ピクセル=1,割合(スクリーン幅)=2,割合(スクリーン高さ)=3
 --track@offset:オフセット,-10000,10000,0,0.1
 --group:追加オプション1,false
---track@centerX_1:中心X(1),-10000,10000,0,0.1
---track@centerY_1:中心Y(1),-10000,10000,0,0.1
---track@angle_1:角度(1),-10000,10000,0,0.01
---track@width_1:幅(1),-10000,10000,0,0.1
+--track@centerX_1:追加1::中心X,-10000,10000,0,0.1
+--track@centerY_1:追加1::中心Y,-10000,10000,0,0.1
+--track@angle_1:追加1::角度,-10000,10000,0,0.01
+--track@width_1:追加1::幅,-10000,10000,0,0.1
+--track@offset_1:追加1::オフセット,-10000,10000,0,0.1
 --group:追加オプション2,false
---track@centerX_2:中心X(2),-10000,10000,0,0.1
---track@centerY_2:中心Y(2),-10000,10000,0,0.1
---track@angle_2:角度(2),-10000,10000,0,0.01
---track@width_2:幅(2),-10000,10000,0,0.1
+--track@centerX_2:追加2::中心X,-10000,10000,0,0.1
+--track@centerY_2:追加2::中心Y,-10000,10000,0,0.1
+--track@angle_2:追加2::角度,-10000,10000,0,0.01
+--track@width_2:追加2::幅,-10000,10000,0,0.1
+--track@offset_2:追加2::オフセット,-10000,10000,0,0.1
 
 
 centerX = centerX + centerX_1 + centerX_2
 centerY = centerY + centerY_1 + centerY_2
 angle = angle + angle_1 + angle_2
 width = width + width_1 + width_2
+offset = offset + offset_1 + offset_2
 
 
 if (mode_offset == 2) then
